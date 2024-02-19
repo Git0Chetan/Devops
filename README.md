@@ -5,3 +5,7 @@
 - install local gitlab
 - learn jenkins
 - install jenkins
+- connection of github with jenkins
+- connection of gitlab with jenkins
+- deployment
+- 
