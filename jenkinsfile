@@ -11,15 +11,19 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.."
+                    sh '''
+                        javac one.java
+                        java one
+                    '''
             }
         }
         stage('Test') {
             steps {
                 echo "Testing.."
                 sh '''
-python3 --version
-python3 hello.py
-'''
+                    python3 --version
+                    python3 hello.py
+                '''
             }
         }
         stage('Deliver') {
