@@ -8,4 +8,4 @@
 - connection of github with jenkins
 - connection of gitlab with jenkins
 - deployment
-- 
+- puppet
