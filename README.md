@@ -9,3 +9,4 @@
 - connection of gitlab with jenkins
 - deployment
 - puppet
+- Teraform
